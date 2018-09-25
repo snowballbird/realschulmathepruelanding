@@ -12,7 +12,7 @@ layout: default
             <div class="box-body">
                 <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
                 <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <a class="post-link" href="">
                     <h2 class="post-title" itemprop="name">
                         {{ post.title }}
                     </h2>
@@ -22,7 +22,7 @@ layout: default
                 </a>
                 <div class="tags">
                     {% for tag in post.tags %}
-                        <a href="{{snowballbird.github.io/realschulmatheprue}}{{tag | slugify }}">{{ tag }}</a>
+                        <a href="{{snowballbird.github.io/realschulmatheprue/}}{{tag | slugify }}">{{ tag }}</a>
                     {% endfor %}
                 </div>
             </div>
