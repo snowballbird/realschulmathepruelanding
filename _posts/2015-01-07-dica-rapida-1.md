@@ -7,5 +7,5 @@ main-class: 'Klausur'
 color: '#637a91'
 tags:
 - "2016 I Haupttermin"
-- ""2016 II/III Haupttermin""
+- "2016 II/III Haupttermin"
 ---
